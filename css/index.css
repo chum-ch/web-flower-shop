@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     background:#f5eee6;
@@ -159,12 +160,12 @@ nav ul li a:hover {
 }
 .order .text {
     position: relative;
-    top: -60%;
+    top: -65%;
     color: #fff;
 }
 .order h3{
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .order p {
     padding: 20px;
@@ -334,12 +335,6 @@ input[type="submit"]:hover {
     color: #ff628c;
     font-size: 30px;
 }
-
-
-
-
-
-
 
 @media(max-width: 560px) {
     .menu i, .logo {
