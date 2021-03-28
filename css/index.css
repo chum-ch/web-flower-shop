@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     background:#f5eee6;
@@ -34,6 +35,7 @@ body {
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
+    z-index: 777;
 }
 
 .logo{
